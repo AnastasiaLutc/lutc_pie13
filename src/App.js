@@ -9,6 +9,7 @@ function App() {
         <p>
           учим реакт
           плюс разбираемся с комментами
+          разобрались
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
