@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
 .App {
-  text-align: center;
+  /* text-align: center; */
+  background-color: #00052E;
+  color: #91D0E4;
 }
 
 .App-logo {
