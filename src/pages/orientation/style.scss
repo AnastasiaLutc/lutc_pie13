@@ -1,4 +1,4 @@
-.contacts {
+.orientation {
     >div {width: 90%;
         margin-left: auto;
         margin-right: auto;}
@@ -11,49 +11,65 @@
 .prev {
     position: relative;
     p {
-        top: 175px;
-        left: 69px;
-        width: 674px;
+        top: 157px;
+        left: 100px;
+        width: 570px;
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 60px;
+        color: #FFFFFF;
+}}
+
+.d1 {
+    display: inline-flex;
+    vertical-align: middle;
+    >div:last-child {
+        width: 579px;
+        height: 256px;
+        left: 666px;
+        top: 38px;
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
+        font-size: 18px;
+        line-height: 35px;
+        text-align: center;
+        color: #FFFFFF;
+        
+    }
+}
+.items {
+    height: 317px;
+    width: 296px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    h2 {
+        font-weight: 700;
         font-size: 20px;
         line-height: 40px;
-        color: #FFFFFF;
-        position: absolute;
-    }}
-.text {
-    p {font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 40px;
-    color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;}
     }
-
-.line {
-    border: 2px solid #91D0E4;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin-bottom: 40px;
-    margin-top: 40px;
+    h3 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 36px;
+    }
 }
-
 .title {
     overflow: hidden;
     text-align: center;
     font-family: 'Merriweather';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 32px;
     line-height: 80px;
     color: #91D0E4;
     padding-top: 50px;
     padding-bottom: 30px;
+    
 }
 .title span {
     display: inline-block;

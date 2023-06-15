@@ -5,6 +5,8 @@ import ContactPage from './pages/contact';
 import HomePage from './pages/home';
 import { HeaderPage } from './pages/header';
 import { FooterPage } from './pages/footer';
+import { OrientationPage } from './pages/orientation';
+import { NewsPage } from './pages/news';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Routes>
         <Route path={'/'} element={<HomePage/>}/> 
         <Route path={'/contact'} element={<ContactPage/>}/>
+        <Route path={'/orientation'} element={<OrientationPage/>}/>
+        <Route path={'/news'} element={<NewsPage/>}/>
       </Routes>
       <FooterPage/>
       </BrowserRouter>

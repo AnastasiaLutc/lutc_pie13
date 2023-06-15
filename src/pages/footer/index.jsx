@@ -5,7 +5,7 @@ export const FooterPage = () => {
     return <div className={'footer'}>
         <div className={'footer__contacts'}> 
         <p className={'header_text'}>Контакты</p>
-        <p className={'text'}>Адрес: Алтайский край,город Барнаул, пр. Ленина, 19 <br /> Телефоны: +7 (3852) 61-10-65 +7 (3852) 50-06-43 <br/>
+        <p className={'text'}>Адрес: Алтайский край, город Барнаул, пр. Ленина, 19 <br /> Телефоны: +7 (3852) 61-10-65 +7 (3852) 50-06-43 <br/>
                     E-mail: planetary@list.ru</p>
          </div>
         <div className={'footer__data'}>
