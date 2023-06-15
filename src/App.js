@@ -7,6 +7,7 @@ import { HeaderPage } from './pages/header';
 import { FooterPage } from './pages/footer';
 import { OrientationPage } from './pages/orientation';
 import { NewsPage } from './pages/news';
+import { PosterPage } from './pages/poster';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path={'/contact'} element={<ContactPage/>}/>
         <Route path={'/orientation'} element={<OrientationPage/>}/>
         <Route path={'/news'} element={<NewsPage/>}/>
+        <Route path={'/poster'} element={<PosterPage/>}/> 
       </Routes>
       <FooterPage/>
       </BrowserRouter>

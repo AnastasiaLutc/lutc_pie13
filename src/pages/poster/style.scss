@@ -1,4 +1,4 @@
-.contacts {
+.orientation {
     >div {width: 90%;
         margin-left: auto;
         margin-right: auto;}
@@ -10,51 +10,29 @@
 }
 .prev {
     position: relative;
-    h6 {
+    p {
         top: 151px;
         left: 80px;
-        width: 674px;
-        font-family: 'Inter';
+        width: 717px;
+        font-family: 'Merriweather';
         font-style: normal;
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 40px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 80px;
         color: #FFFFFF;
-        position: absolute;
     }}
-
-.text {
-    p {font-family: 'Merriweather';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 40px;
-    color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;}
-    }
-
-.line {
-    border: 2px solid #91D0E4;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    margin-bottom: 40px;
-    margin-top: 40px;
-}
-
 .title {
     overflow: hidden;
     text-align: center;
     font-family: 'Merriweather';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 32px;
     line-height: 80px;
     color: #91D0E4;
     padding-top: 50px;
     padding-bottom: 30px;
+    
 }
 .title span {
     display: inline-block;
