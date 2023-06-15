@@ -1,0 +1,43 @@
+.footer {
+    > div {display: inline-block;}
+
+    &__contacts {
+        flex: 4;
+        padding-top: 20px;
+        padding-left: 40px;
+    }
+    &__data {
+        float: right;
+        > div:first-child {
+            float:right;
+            margin-top: 53px;
+            margin-right: 54px;
+        }
+        > div:last-child{
+            padding-top: 128px;
+            padding-right: 54px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400px;
+            font-size: 16px;
+            line-height: 50px;
+            color: #FFFFFF;
+            word-spacing: 9px;
+        }          
+    }
+}
+.header_text {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+}
+.text {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+    color: #FFFFFF;
+}

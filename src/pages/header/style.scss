@@ -8,9 +8,13 @@
     }
     &__menu {
         flex: 2;
-        display: flex;
-        > div { flex: 1;};
-        a {
+        text-align: right;
+        margin-right: 21px;
+        > div {
+            display: inline-block;
+            margin-left: 50px;
+        };
+        a { 
             font-family: 'Inter';
             font-style: normal;
             font-weight: 400;
@@ -21,9 +25,11 @@
         }
     }
     &__icons {
-        flex: 1;
+        width: 90px;
         display: flex;
-        > div:first-child { flex: 1;
+        margin-right: 15px;
+        > div:first-child {
+            margin-left: 9px;
             font-family: 'Inter';
             font-style: normal;
             font-weight: 400;
@@ -31,7 +37,8 @@
             line-height: 40px;
             color: #91D0E4;
         }
-        > div { flex: 1;
+        > div {
+            margin-left: 9px;
             font-family: 'Inter';
             font-style: normal;
             font-weight: 400;

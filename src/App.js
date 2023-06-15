@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import ContactPage from './pages/contact';
 import HomePage from './pages/home';
 import { HeaderPage } from './pages/header';
+import { FooterPage } from './pages/footer';
 
 function App() {
   return (
@@ -12,9 +13,10 @@ function App() {
       <HeaderPage/>
       <Routes>
         <Route path={'/'} element={<HomePage/>}/> 
-        <Route path={'/contact'} element={<ContactPage />}/>
+        <Route path={'/contact'} element={<ContactPage/>}/>
       </Routes>
       <footer>footer</footer>
+      <FooterPage/>
       </BrowserRouter>
     </div>
   );
