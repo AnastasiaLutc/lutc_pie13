@@ -1,0 +1,66 @@
+.contacts {
+    >div {width: 90%;
+        margin-left: auto;
+        margin-right: auto;}
+    >div:first-child {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.text {
+    p {font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+    }
+
+.line {
+    border: 2px solid #91D0E4;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.title {
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 80px;
+    color: #91D0E4;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.title span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.title:before,
+.title:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 305px;
+    height: 2px;
+    background-color: #91D0E4;
+    position: relative;
+}
+.title:before {
+    margin-left: -100%;
+    left: -19px;
+}
+.title:after {
+    margin-right: -100%;
+    right: -19px;
+}

@@ -15,7 +15,6 @@ function App() {
         <Route path={'/'} element={<HomePage/>}/> 
         <Route path={'/contact'} element={<ContactPage/>}/>
       </Routes>
-      <footer>footer</footer>
       <FooterPage/>
       </BrowserRouter>
     </div>
