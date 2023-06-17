@@ -19,7 +19,13 @@ const HomePage = () => {
             <h1 style={{marginBottom:39}}>Мероприятия и праздники</h1>
             <h2>Праздничные мероприятия и знаменательные даты отечественной космонавтики</h2></div>
         </div></div>
-        <div>галлерея</div>
+        <div> <div className={"title"}><span>Галлерея</span></div>
+            <div className={'gallery_st1'}><img src={"./image/gallery1.jpg"} style={{marginRight:17}} alt="photo_gallery1"/>
+            <img src={"./image/gallery2.jpg"} alt="photo_gallery2"/></div>
+            <div className={'gallery_st2'}><img src={"./image/gallery3.jpg"} style={{marginRight:23}} alt="photo_gallery3"/>
+            <img src={"./image/gallery4.jpg"} style={{marginRight:23}} alt="photo_gallery4"/>
+            <img src={"./image/gallery5.jpg"} alt="photo_gallery5"/></div>
+        </div>
         <div>новости</div>
         <div>цены</div>
         <div>напишите нам</div>
