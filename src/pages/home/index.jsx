@@ -78,7 +78,17 @@ const HomePage = () => {
                 </div>
             </div>
         </div>
-        <div>напишите нам</div>
+        <div className={"write_us"}> <img src={"./image/write_to_us.png"} className={"bacground"} alt="Банер -Напишите нам-"/>
+        <div >
+            <h1>Напишите нам!</h1>
+            <div class="text-field">
+            <input class="text-field__input" name="E-mail" placeholder="E-mail" style={{marginBottom:22}}/>
+            <input class="text-field__input" name="Имя" placeholder="Имя" style={{marginBottom:22}}/>
+            <textarea class="text-field__input" name="сообщение" placeholder="Ваше сообщение" style={{marginBottom:32, height:102}}/>
+            <button class="text-field__btn" type="button">Отправить</button>
+            </div>
+        </div>  
+        </div>
         </div>
 }
 
