@@ -60,7 +60,24 @@ const HomePage = () => {
             </div>
             </div>
         </div>
-        <div>цены</div>
+        <div> <div className={"title"}><span>Цены</span></div>
+            <div className={"price"}>
+                <div style={{marginRight:25}}>
+                    <h3>Билет обучающегося</h3>
+                    <h4>184 р.</h4>
+                    <p>Организация и проведение культурно массового мероприятия. <br />
+                    Несовершеннолетние дошкольного возраста, учащиеся общеобразовательных организаций, студенты.</p>
+                    <a className={"button"} style={{bottom:31}} href="/orientation">Подробнее</a>
+                </div>
+                <div>
+                    <h3>Билет общий</h3>
+                    <h4>220 р.</h4>
+                    <p style={{marginBottom:128}}>Организация и проведение культурно массового мероприятия. <br />
+                    Совершеннолетние физические лица.</p>
+                    <a className={"button"} href="/orientation">Подробнее</a>
+                </div>
+            </div>
+        </div>
         <div>напишите нам</div>
         </div>
 }
