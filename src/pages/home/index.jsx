@@ -4,7 +4,12 @@ import "./style.scss"
 
 const HomePage = () => {
     return <div className={'home'}>
-        <div><img src={"./image/main_cosmo.png"} className={'img'} alt="Банер"/></div>
+        <div className={"prev"}><img src={"./image/main_cosmo.png"} className={'img'} alt="Банер"/>
+            <div><h1>Звёздные миры</h1>
+                <h3>Барнаульский Планетарий – это особый астрономический центр, сочетающий в себе достоинства театра и учебной аудитории. Актёрами в этом необычном театре выступают Солнце, звёзды, планеты, галактики, кометы...</h3>
+                <button>Узнать больше</button>
+            </div>
+        </div>
         <div> <div className={"title"}><span>Направления</span></div>
         <div className={"orientation_item"}><div className={'items'}><img src={"./icons/kupol.png"} className={'items__im1'} alt="icon_kupol"/>
                 <h1>Полнокупольные шоу-программы</h1>

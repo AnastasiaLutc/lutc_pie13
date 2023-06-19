@@ -20,7 +20,58 @@
     width: 100%;
     height: 651px;
 }
-
+.prev {
+    position: relative;
+    h1 {
+        top: 135px;
+        left: 85px;
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 120px;
+        color: #FFFFFF;
+        position: absolute;
+        margin: 0 0 10 0;
+    }
+    h3 {
+        position: absolute;
+        width: 674px;
+        top: 281px;
+        left: 92px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 40px;
+        color: #FFFFFF;
+        margin: 0;
+    }
+    button {
+        position: absolute;
+        height: 50px;
+        width: 255px;
+        left: 92px;
+        bottom: 128px;
+        background: #91D0E4;
+        border-radius: 15px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 40px;
+        text-align: center;
+        color: #00052E;
+        border: none;
+        &:active {
+            transform: scale(0.98);
+            box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+        }
+        &:hover {
+        background-color: #6bbfd8;
+        }
+    }
+}
 .orientation_item {
     display: flex;
     >div {margin-right: 37px;}
@@ -87,27 +138,29 @@
     color: #91D0E4;
     padding-top: 50px;
     padding-bottom: 30px;
+
     span {
-    display: inline-block;
-    vertical-align: middle;
-}}
-.title:before,
-.title:after {
-    content: "";
-    display: inline-block;
-    vertical-align: middle;
-    width: 305px;
-    height: 2px;
-    background-color: #91D0E4;
-    position: relative;
-}
-.title:before {
-    margin-left: -100%;
-    left: -19px;
-}
-.title:after {
-    margin-right: -100%;
-    right: -19px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    &:before,
+    &:after {
+        content: "";
+        display: inline-block;
+        vertical-align: middle;
+        width: 305px;
+        height: 2px;
+        background-color: #91D0E4;
+        position: relative;
+    }
+    &:before {
+        margin-left: -100%;
+        left: -19px;
+    }
+    &:after {
+        margin-right: -100%;
+        right: -19px;
+    }
 }
 .news {
     display: flex;
