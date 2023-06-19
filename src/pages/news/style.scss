@@ -23,6 +23,74 @@
         position: absolute;
     }
 }
+.news {
+    display: grid;
+    >div {border: none;
+        width: 100%;
+        height: auto;}
+    h2 {
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 40px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 34px;
+        margin-bottom: 41px;
+    }
+    &__notes {
+        margin-left: 0px;
+        h3 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 40px;
+            text-decoration-line: underline;
+            color: #FFFFFF;
+            margin-bottom: 0;
+            margin: 0;
+        }
+        h4 { margin: 0;
+            margin-bottom: 30px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            color: #FFFFFF;
+        }
+        a.button {
+            float: right;
+            height: 48px;
+            width: 206px;
+            background: #91D0E4;
+            border-radius: 10px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            text-align: center;
+            color: #00052E;
+            line-height: 48px;
+            text-decoration: none;
+            &:active {
+                transform: scale(0.98);
+                box-shadow: 3px 2px 22px 1px rgba(18, 161, 205, 0.24);
+            }
+          }
+    }
+}
+.line {
+    border: 2px solid #91D0E4;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-bottom: 40px;
+    margin-top: 42px;
+}
 .title {
     overflow: hidden;
     text-align: center;
@@ -33,7 +101,7 @@
     line-height: 80px;
     color: #91D0E4;
     padding-top: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 
     span {
         display: inline-block;
