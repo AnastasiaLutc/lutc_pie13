@@ -6,7 +6,7 @@ export const OrientationPage = () => {
         <div  className={'prev'}><img src={"./image/planetary.png"} style={{width:100+"%"}} alt="Банер"/>
             <h2>Направления звездной работы</h2>
         </div>
-        <div className={"title"}><span>Направления</span></div>
+        <div className={"title_orient"}><span>Направления</span></div>
         <div className={"d1"}>
             <div className={'items'}><img src={"./icons/kupol.png"} className={'items__im1'} alt="icon_kupol"/>
                 <h1>Полнокупольные шоу-программы</h1>

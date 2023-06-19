@@ -2,7 +2,7 @@ import React from "react";
 import "./style.scss"
 
 export const PosterPage = () => {
-    return <div className={"orientation"}>
+    return <div className={"orient_div"}>
         <div  className={'prev'}><img src={"./image/planetary.png"} style={{width:100+"%"}} alt="Банер"/>
             <div><p>Путешествия по звёздным мирам</p></div>
         </div>
@@ -33,8 +33,8 @@ export const PosterPage = () => {
                 <a href="/poster">Мультимедийные программы</a>
                 </div>
             </div>
-            <a className={"button"} href="/poster">Применить</a>
-            <a className={"button"} href="/poster" style={{left:-255}}>Сбросить</a>
+            <a className={"button_poster"} href="/poster">Применить</a>
+            <a className={"button_poster"} href="/poster" style={{left:-255}}>Сбросить</a>
             
         </div>
         <div className={"poster"}> 

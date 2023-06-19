@@ -6,7 +6,7 @@ export const NewsPage = () => {
         <div  className={'prev'}><img src={"./image/planetary.png"} style={{width:100+"%"}} alt="Банер"/>
             <div><h1>Главные новости космоса</h1></div>
         </div>
-        <div><div className={"title"}><span>Новости</span></div>
+        <div><div className={"title_news"}><span>Новости</span></div>
             <div className={"new"}>
                 <h2>Наши новости</h2>
                 <div className={"new__note"}>

@@ -124,7 +124,7 @@
     margin-bottom: 40px;
     img {height: 560px;}
 }
-.title {
+.title_home {
     overflow: hidden;
     text-align: center;
     font-family: 'Merriweather';
@@ -145,7 +145,7 @@
         content: "";
         display: inline-block;
         vertical-align: middle;
-        width: 305px;
+        width: 250px;
         height: 2px;
         background-color: #91D0E4;
         position: relative;
@@ -201,7 +201,7 @@
             line-height: 30px;
             color: #FFFFFF;
         }
-        a.button {
+        a.button_h {
             float: right;
             height: 48px;
             width: 206px;
@@ -265,7 +265,7 @@
             color: #FFFFFF;
             margin: 20px auto 20px auto;
         }
-        a.button {
+        a.button_hp {
             display: block;
             margin: auto;
             height: 48px;
