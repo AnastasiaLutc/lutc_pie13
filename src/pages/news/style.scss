@@ -23,7 +23,7 @@
         position: absolute;
     }
 }
-.news {
+.new {
     display: grid;
     >div {border: none;
         width: 100%;
@@ -39,7 +39,7 @@
         margin-top: 34px;
         margin-bottom: 41px;
     }
-    &__notes {
+    &__note {
         margin-left: 0px;
         h3 {
             font-family: 'Inter';

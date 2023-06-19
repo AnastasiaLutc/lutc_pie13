@@ -1,11 +1,12 @@
 .orientation {
-    >div {width: 90%;
+    >div:last-child {width: 90%;
         margin-left: auto;
-        margin-right: auto;}
-    >div:first-child {
+        margin-right: auto;
+        margin-top: 9px;
+    }
+    >div {
         width: 100%;
-        margin-left: 0;
-        margin-right: 0;
+        margin: 0;
     }
 }
 .prev {
@@ -59,3 +60,198 @@
         right: -19px;
     }
 }
+.schedule {
+    height: 274px;
+    width: 100%;
+    background-color: #191F53;
+    margin-top: 0;
+    h1 {
+        position: relative;
+        left: 40px;
+        top: 40px;
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 50px;
+        color: #FFFFFF;
+        margin: 0;
+    }
+}
+.button {
+    position:relative;
+    display: inline-block;
+    left: -315px;
+    top: 145px;
+    height: 48px;
+    width: 206px;
+    background: #91D0E4;
+    border-radius: 20px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #00052E;
+    line-height: 48px;
+    text-decoration: none;
+    // margin-right: 30px;
+    &:active {
+        transform: scale(0.98);
+        box-shadow: 3px 2px 22px 1px rgba(18, 161, 205, 0.24);
+    }
+  }
+.dropbtn {
+    background: #959CB5;
+    border-radius: 20px;
+    width: 290px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #191F53;
+    padding-left: 20px;
+    text-align: justify;
+    img {
+        float: right;
+        margin-top: 8px;
+        margin-right: 21px;
+    }
+}
+
+.dropdown {
+    left: 72px;
+    top: 66px;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #CCEEF9;
+    width: 290px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 30px;
+    color: #191F53;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #a1e5fc}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #00c9dc;
+}
+.poster {
+    display: flex;
+    height: 614px;
+    margin-bottom: 30px;
+    justify-content: center;
+    >div:first-child {width: 70px;}
+    >div:last-child {width: 70px;}
+    >div {
+        width: 185px;
+        height: 614px;
+    }
+}
+.frame_data {
+    box-sizing: border-box;
+    width: 185px;
+    height: 120px;
+    left: 0px;
+    top: 0px;
+    background: #91D0E4;
+    border: 1px solid #959CB5;
+    p {
+        position: relative;
+        left: 18px;
+        top: 38px;
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000000;
+        margin: 0;
+    }
+}
+.frame_time{
+    box-sizing: border-box;
+    width: 185px;
+    height: 120px;
+    background: #CCEEF9;
+    border: 1px solid #959CB5;
+    h5 { position: relative;
+        left: 15px;
+        top: 19px;
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: #000000;
+        margin: 0;
+    }
+    h6 {position: relative;
+        width: 150px;
+        left: 15px;
+        top: 17px;
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #CC6E00;
+        margin: 0;
+    }
+}
+.conteiner_p {
+    width: auto;
+    height: 70px;
+    display: flex;
+    top: 38px;
+    position: relative;
+}
+.arrow_p {
+    position: relative;
+    width: 62px;
+    height: 62px;
+    border: 2.5px solid #91D0E4;
+    background: #00052E;
+    border-radius: 50%;
+    cursor: pointer;
+    &:active {
+        box-shadow: 3px 2px 22px 1px rgba(18, 161, 205, 0.46);
+    }
+    >div {
+        top: 22px;
+        left: 17px;
+        position: absolute;
+        width: 26px;
+        height: 26px;
+        border-left: 2px solid #91D0E4;
+        border-top: 2px solid #91D0E4;
+        transform: rotate(45deg);
+    }
+}
+.right {transform: rotate(90deg);}
+.left {transform: rotate(-90deg);}

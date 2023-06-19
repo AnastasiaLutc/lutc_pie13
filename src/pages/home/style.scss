@@ -161,6 +161,7 @@
 }
 .news {
     display: flex;
+    justify-content: center;
     >div {border: 1px solid #FFFFFF;
         width: 648px;
         height: 710px;}
