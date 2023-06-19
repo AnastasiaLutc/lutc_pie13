@@ -126,3 +126,33 @@
         right: -19px;
     }
 }
+.conteiner {
+    width: 165px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+.arrow {
+    position: relative;
+    width: 62px;
+    height: 62px;
+    border: 2.5px solid #91D0E4;
+    background: #00052E;
+    border-radius: 50%;
+    cursor: pointer;
+    &:active {
+        box-shadow: 3px 2px 22px 1px rgba(18, 161, 205, 0.46);
+    }
+    >div {
+        top: 22px;
+        left: 17px;
+        position: absolute;
+        width: 26px;
+        height: 26px;
+        border-left: 2px solid #91D0E4;
+        border-top: 2px solid #91D0E4;
+        transform: rotate(45deg);
+    }
+}
+.right {transform: rotate(90deg);}
+.left {transform: rotate(-90deg);}
