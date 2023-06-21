@@ -1,8 +1,7 @@
 import React from "react";
 import "./style.scss"
 
-const HomePage = () => {
-    return <div className={'home'}>
+const HomePage = () => { return <div className={'home'}>
         <div className={"prev"}><img src={"./image/main_cosmo.png"} className={'img'} alt="Банер"/>
             <div><h1 style={{fontSize:62, top: 151,left:90}}>Звёздные миры</h1>
                 <h3>Барнаульский Планетарий – это особый астрономический центр, сочетающий в себе достоинства театра и учебной аудитории. Актёрами в этом необычном театре выступают Солнце, звёзды, планеты, галактики, кометы...</h3>
