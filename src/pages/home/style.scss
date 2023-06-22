@@ -20,21 +20,23 @@
     width: 100%;
     height: 651px;
 }
-.prev {
+.prev-home {
     position: relative;
     h1 {
+        position: absolute;
+        float: left;
         font-family: 'Merriweather';
         font-style: normal;
         font-weight: 700;
+        font-size: 60px;
         line-height: 120px;
         color: #FFFFFF;
-        position: absolute;
         margin: 0;
     }
     h3 {
         position: absolute;
         width: 674px;
-        top: 281px;
+        top: 303px;
         left: 92px;
         font-family: 'Inter';
         font-style: normal;
@@ -49,7 +51,7 @@
         height: 50px;
         width: 255px;
         left: 92px;
-        bottom: 128px;
+        bottom: 140px;
         background: #91D0E4;
         border-radius: 15px;
         font-family: 'Inter';
@@ -364,3 +366,154 @@
         box-sizing: border-box;
     }
 }
+
+@media (max-width: 840px) { 
+    .home {display: none;}
+    .home-mobile {
+        >div {width: 90%;
+            margin-left: auto;
+            margin-right: auto;}
+        >div:first-child {
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;}
+        >div:last-child {
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+            img.bacground {
+                width: 100%;
+                height: 80%;
+            }
+        }
+    }
+    .img {
+        width: 100%;
+        height: 651px;
+    }
+    .prev-home {
+        position: relative;
+        h1 {
+            font-size: 40px;
+            line-height: 100px;
+        }
+        h3 {
+            position: absolute;
+            
+            width: 529px;
+            top: 165px;
+            left: 43px;
+            font-size: 15px;
+            line-height: 35px;
+            margin: 0;
+        }
+        button {
+            height: 40px;
+            width: 170px;
+            left: 43px;
+            bottom: 30px;
+            font-size: 13px;
+        }
+    }
+    .orientation_item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        >div {margin-right: 25px;}
+    }
+    .items {
+        height: 317px;
+        width: 278px;
+    }
+    .gallery_st1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        img {height: 490px;
+        margin-bottom: 15px;}
+    }
+    .gallery_st2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 49px;
+        img {height: 464px;}
+    }
+    .title_home {
+        overflow: hidden;
+        text-align: center;
+        font-family: 'Merriweather';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 80px;
+        color: #91D0E4;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    
+        span {width: 260px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        &:before,
+        &:after {
+            content: "";
+            display: inline-block;
+            vertical-align: middle;
+            width: 170px;
+            height: 2px;
+            background-color: #91D0E4;
+            position: relative;
+        }
+        &:before {
+            margin-left: -100%;
+            left: 0px;
+        }
+        &:after {
+            margin-right: -100%;
+            right: 0px;
+        }
+    }
+    .news {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .price {
+        display: flex;
+        justify-content: center;
+        width: 380px;
+        height: 506px;
+        margin: 0px auto 35px auto;
+        >div {
+            height: 505px;
+            width: 450px;
+            border: 3px solid #91D0E4;
+        }
+    }
+    .write_us {
+        position: relative;
+        h1 {
+            left: 37px;
+            top: 27px;
+            margin: 0;
+        }
+        .text-field {
+            left: 37px;
+            top: 107px;
+            position: absolute;
+        }
+        .text-field__input {
+            display: block;
+            width: 347px;
+            height: 50px;
+        }
+        .text-field__btn {
+            display: inline-block;
+            height: 48px;
+            width: 160px;
+        }
+    }
+}
+

@@ -43,7 +43,7 @@ export const HeaderPage = () => {
             <div><Link to={'/news'}>Новости</Link></div>
             <div><Link to={'/orientation'}>Услуги</Link></div>
             <div><Link to={'/contact'}>О нас</Link></div>
-            <div></div>
+            <div onClick={()=>setIsOpen(!isOpen)}></div>
             </>}
         </div>
          

@@ -1,4 +1,4 @@
-.orientation {
+.orientation-news {
     >div {width: 90%;
         margin-left: auto;
         margin-right: auto;}
@@ -8,7 +8,7 @@
         margin-right: 0;
     }
 }
-.prev {
+.prev-news {
     position: relative;
     h1 {
         top: 135px;
@@ -156,3 +156,84 @@
 }
 .right {transform: rotate(90deg);}
 .left {transform: rotate(-90deg);}
+
+@media (max-width: 840px) {
+    .prev-news {
+        position: relative;
+        h1 {
+            margin: 0;
+            top: 45px;
+            left:40px;
+            font-size: 36px;
+            position: absolute;
+    }}
+    .title_news {
+    
+        span {width: 260px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        &:before,
+        &:after {
+            content: "";
+            display: inline-block;
+            vertical-align: middle;
+            width: 170px;
+            height: 2px;
+            background-color: #91D0E4;
+            position: relative;
+        }
+        &:before {
+            margin-left: -100%;
+            left: 0px;
+        }
+        &:after {
+            margin-right: -100%;
+            right: 0px;
+        }
+    }
+    .new {
+        display: grid;
+        >div {border: none;
+            width: 90%;
+            height: auto;
+            margin: 0 auto;
+        }
+        h2 {
+            font-size: 32px;
+            margin-top: 34px;
+            margin-bottom: 41px;
+        }
+        &__note {
+            h3 {
+                font-size: 20px;
+                margin: 0;
+            }
+            h4 { margin: 0;
+                margin-bottom: 30px;
+                font-size: 15px;
+
+            }
+            a.button {
+                float: right;
+                height: 48px;
+                width: 206px;
+                background: #91D0E4;
+                border-radius: 10px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 30px;
+                text-align: center;
+                color: #00052E;
+                line-height: 48px;
+                text-decoration: none;
+                &:active {
+                    transform: scale(0.98);
+                    box-shadow: 3px 2px 22px 1px rgba(18, 161, 205, 0.24);
+                }
+              }
+        }
+    }
+}

@@ -2,8 +2,8 @@ import React from "react";
 import "./style.scss"
 
 export const NewsPage = () => {
-    return <div className={"orientation"}>
-        <div  className={'prev'}><img src={"./image/planetary.png"} style={{width:100+"%"}} alt="Банер"/>
+    return <div className={"orientation-news"}>
+        <div  className={'prev-news'}><img src={"./image/planetary.png"} style={{width:100+"%"}} alt="Банер"/>
             <div><h1>Главные новости космоса</h1></div>
         </div>
         <div><div className={"title_news"}><span>Новости</span></div>

@@ -228,4 +228,29 @@
         height: 317px;
         width: 278px;
     }
+    .title_orient {
+    
+        span {width: 260px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        &:before,
+        &:after {
+            content: "";
+            display: inline-block;
+            vertical-align: middle;
+            width: 170px;
+            height: 2px;
+            background-color: #91D0E4;
+            position: relative;
+        }
+        &:before {
+            margin-left: -100%;
+            left: 0px;
+        }
+        &:after {
+            margin-right: -100%;
+            right: 0px;
+        }
+    }
 }
