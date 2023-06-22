@@ -41,3 +41,21 @@
     line-height: 40px;
     color: #FFFFFF;
 }
+
+@media (max-width: 840px) {
+    .footer {
+        &__contacts {
+            flex: 4;
+            padding-top: 10px;
+            padding-left: 20px;
+        }
+    }
+    .header_text {
+        margin: 0;
+        margin-bottom: 5px;
+    }
+    .text {
+        margin: 0;
+        margin-bottom: 35px;
+    }
+}
