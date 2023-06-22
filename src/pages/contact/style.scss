@@ -79,3 +79,26 @@
         right: -19px;
     }
 }
+
+@media (max-width: 840px) {
+    .prev {
+        position: relative;
+        h6 {
+            margin: 0;
+            top: 45px;
+            left: 40px;
+            width: 500px;
+            font-size: 16px;
+            line-height: 35px;
+            position: absolute;
+        }}
+    
+    .text {
+        p {
+        font-weight: 250;
+        font-size: 16px;
+        line-height: 35px;
+        }
+        }
+    
+}
