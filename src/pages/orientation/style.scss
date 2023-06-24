@@ -8,6 +8,7 @@
         margin-right: 0;
     }
 }
+.orientation-mobile {display: none;}
 .prev {
     position: relative;
     h2 {
@@ -26,6 +27,7 @@
 
 .d1 {
     display: flex;
+    justify-content: center;
     >div {
         margin-right: 37px;
     }
@@ -45,6 +47,7 @@
 .d2 {
     display: flex;
     margin-top: 50px;
+    justify-content: center;
     >div {
         margin-right: 96px;
     }
@@ -64,6 +67,7 @@
 .d3 {
     display: flex;
     margin-top: 50px;
+    justify-content: center;
     >div {
         margin-right: 45px;
     }
@@ -159,8 +163,8 @@
 }
 
 @media (max-width: 840px) {
-    .orientation {display: none;}
     .orientation-mobile {
+        display: block;
         >div {width: 90%;
             margin-left: auto;
             margin-right: auto;}
@@ -170,6 +174,7 @@
             margin-right: 0;
         }
     }
+    .orientation {display: none;}
     .prev {
         position: relative;
         h2 {

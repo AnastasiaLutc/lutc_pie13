@@ -26,7 +26,7 @@ export const HeaderPage = () => {
     </div>
     <div className={"header-mobile"}>
         <div className={"header-mobile__menu"}>
-            <div className={'header__logo'}><img src={"./picture/logo.svg"} style={{marginRight:30}} alt="logo"/>
+            <div className={'header-mobile__logo'}><img src={"./picture/logo.svg"} alt="logo"/>
                     <img src={"./picture/name.svg"} alt="Планетарий г.Барнаул"/></div>
             <div className={'header-mobile__leng'}>
                 <div>en</div>

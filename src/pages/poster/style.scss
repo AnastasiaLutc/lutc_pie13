@@ -9,6 +9,7 @@
         margin: 0;
     }
 }
+.orient_div-mobile {display: none;}
 .prev {
     position: relative;
     p {
@@ -236,6 +237,7 @@
     }
     .orient_div {display: none;}
     .orient_div-mobile {
+        display: block;
         >div:last-child {width: 100%;
             margin-left: 0;
             margin-right: 0;
