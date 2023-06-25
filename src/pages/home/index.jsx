@@ -118,10 +118,10 @@ const HomePage = () => {
             <h2>Праздничные мероприятия и знаменательные даты отечественной космонавтики</h2></div></div>
         </div>
         <div> <div className={"title_home"} ><span>Галлерея</span></div>
-            <div className={'gallery_st1'}><img src={"./image/gallery1.jpg"} style={{width:624}} alt="photo_gallery1"/>
-            <img src={"./image/gallery2.jpg"} style={{ width:735}} alt="photo_gallery2"/></div>
-            <div className={'gallery_st2'}><img src={"./image/gallery3.jpg"} style={{marginRight:10,width:384}} alt="photo_gallery3"/>
-            <img src={"./image/gallery4.jpg"} style={{width:354,marginBottom:15}} alt="photo_gallery4"/>
+            <div className={'gallery_st1'}><img src={"./image/gallery1.jpg"} alt="photo_gallery1"/>
+            <img src={"./image/gallery2.jpg"}  alt="photo_gallery2"/></div>
+            <div className={'gallery_st2'}><img src={"./image/gallery3.jpg"} alt="photo_gallery3"/>
+            <img src={"./image/gallery4.jpg"} style={{marginBottom:15}} alt="photo_gallery4"/>
             <img src={"./image/gallery5.jpg"} alt="photo_gallery5"/></div>
         </div>
         <div> <div className={"title_home"}><span>Новости</span></div>
@@ -145,7 +145,7 @@ const HomePage = () => {
                 <h2>Новости космоса</h2>
                 <div className={"news__notes"}>
                     <h3>SpaceX запустила спутник Arabsat BADR-8</h3>
-                    <h4 style={{marginBottom:50}}>В субботнюю ночь, после недели задержек из-за штормовой погоды, SpaceX запустила спутник Arabsat BADR-8 на геосинхронную орбиту. Запуск был осуществлен с помощью ракеты Falcon 9 с мыса Канаверал.<a className={"button_h"} href="/news">Подробнее</a></h4>
+                    <h4 >В субботнюю ночь, после недели задержек из-за штормовой погоды, SpaceX запустила спутник Arabsat BADR-8 на геосинхронную орбиту. Запуск был осуществлен с помощью ракеты Falcon 9 с мыса Канаверал.<a className={"button_h"} style={{marginLeft:400}} href="/news">Подробнее</a></h4>
                 </div>
                 <div className={"news__notes"}>
                     <h3>Астрономы обнаружили необычную планетную систему</h3>
@@ -170,7 +170,7 @@ const HomePage = () => {
                 <div>
                     <h3>Билет общий</h3>
                     <h4>220 р.</h4>
-                    <p style={{marginBottom:128}}>Организация и проведение культурно массового мероприятия. <br />
+                    <p>Организация и проведение культурно массового мероприятия. <br />
                     Совершеннолетние физические лица.</p>
                     <a className={"button_hp"} href="/orientation">Подробнее</a>
                 </div>
@@ -180,9 +180,9 @@ const HomePage = () => {
         <div >
             <h1>Напишите нам!</h1>
             <div class="text-field">
-            <input class="text-field__input" name="E-mail" placeholder="E-mail" style={{marginBottom:20}}/>
-            <input class="text-field__input" name="Имя" placeholder="Имя" style={{marginBottom:20}}/>
-            <textarea class="text-field__input" name="сообщение" placeholder="Ваше сообщение" style={{marginBottom:30, height:100}}/>
+            <input class="text-field__input" name="E-mail" placeholder="E-mail"/>
+            <input class="text-field__input" name="Имя" placeholder="Имя"/>
+            <textarea class="text-field__input" name="сообщение" placeholder="Ваше сообщение" />
             <button class="text-field__btn" type="button">Отправить</button>
             </div>
         </div>  
