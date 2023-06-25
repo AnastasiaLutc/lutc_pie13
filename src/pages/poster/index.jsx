@@ -97,7 +97,7 @@ export const PosterPage = () => {
                 </div>
             </div>
             <div class="dropdown" style={{marginRight:50}}>
-                <button class="dropbtn" style={{width:250}}>Место проведения <img src={"./icons/Vector.png"} alt="vector"/></button>
+                <button class="dropbtn width-mob" >Место проведения <img src={"./icons/Vector.png"} alt="vector"/></button>
                 <div class="dropdown-content">
                 <a href="/poster">Зал мультимедиа</a>
                 <a href="/poster">Площадка у планетария</a>

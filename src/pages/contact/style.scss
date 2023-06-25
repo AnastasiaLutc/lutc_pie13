@@ -102,3 +102,54 @@
         }
     
 }
+@media (max-width: 400px) {
+    .prev {
+        position: relative;
+        h6 {
+            margin: 0;
+            top: 20px;
+            left: 20px;
+            width: 300px;
+            font-size: 9px;
+            line-height: 15px;
+            position: absolute;
+        }}
+    
+    .text {
+        p {
+        font-weight: 250;
+        font-size: 11px;
+        line-height: 25px;
+        }
+        }
+
+    .contacts {
+        .line {
+        border: 1.5px solid #91D0E4;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .title_contact {
+        font-size: 20px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    
+        span {width: 110px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        &:before,
+        &:after {
+            content: "";
+            display: inline-block;
+            vertical-align: middle;
+            width: 90px;
+            height: 2px;
+            background-color: #91D0E4;
+            position: relative;
+        }
+       
+    }
+    }
+    
+}

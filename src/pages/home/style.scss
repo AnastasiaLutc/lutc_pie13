@@ -690,16 +690,13 @@
             margin-left: 5px;
             margin-bottom: 0;
             h3 {
-                
                 font-size: 13px;
-                line-height: 20px;
-                
+                line-height: 20px; 
             }
             h4 { 
                 margin-bottom: 10px;
                 font-size: 11px;
-                line-height: 20px;
-                
+                line-height: 20px;  
             }
             a.button_h {
                 float: right;
@@ -795,28 +792,4 @@
         }
         
     }
-    // .write_us {
-    //     position: relative;
-    //     h1 {
-    //         left: 37px;
-    //         top: 27px;
-    //         margin: 0;
-    //     }
-    //     .text-field {
-    //         left: 37px;
-    //         top: 107px;
-    //         position: absolute;
-    //     }
-    //     .text-field__input {
-    //         display: block;
-    //         width: 347px;
-    //         height: 50px;
-    //     }
-    //     .text-field__btn {
-    //         display: inline-block;
-    //         height: 48px;
-    //         width: 160px;
-    //     }
-    // }
-    
 }

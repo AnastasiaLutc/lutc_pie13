@@ -59,3 +59,55 @@
         margin-bottom: 35px;
     }
 }
+@media (max-width: 400px) {
+    .footer {
+        height: auto;
+        > div {display: inline-block;}
+        &__contacts {
+            padding-top: 10px;
+            padding-left: 20px;
+            width: 286px;
+            position: relative;
+            padding-bottom: 45px;
+        }
+        &__data {
+            float: right;
+            position: absolute;
+            width: 100px;
+            top: auto;
+            > div:first-child {
+                float: right;
+                margin-top: 85px;
+                margin-right: 12px;
+                img {
+                    height: 33px;
+                }
+                >img:last-child {margin-left: -6px;
+                margin-right: 10px;}
+            }
+            > div:last-child{
+                float: right;
+                width: 100px;
+                height: 36px;
+                padding-top: 0px;
+                padding-right: 12px;
+                font-size: 11px;
+                line-height: 30px;
+                margin-top: 0px;
+                margin-right: 0px;
+                word-spacing: 5px;
+            }          
+        }
+    }
+    .header_text {
+        margin: 5px auto 4px 5px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .text {
+        margin: 0;
+        margin-bottom: 5px;
+        font-size: 10px;
+        line-height: 20px;
+    }
+}
